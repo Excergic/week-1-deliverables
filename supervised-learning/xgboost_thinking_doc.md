@@ -501,3 +501,6 @@ In Regression, you prevent overfitting by shrinking the weights (Lasso/Ridge). I
 ### The "Extrapolation" Wall
 
 This is the biggest mindset shift from Regression. In Linear Regression, if you have a trend line, you can plug in an `x` value 10x higher than anything you've ever seen, and the model will give you a projection. **XGBoost cannot do this.** Trees are bounded by what they've seen in training — they cannot project beyond the data's boundaries.
+
+Regulatization totally different from all previous algorithms
+Applied to XGBoost: XGBoost uses L1 (Alpha) and L2 (Lambda) regularization, just like Ridge and Lasso in regression. But it adds a third: Tree Depth. A deep tree is a complex hypothesis; a shallow tree (a "stump") is a simple one.
