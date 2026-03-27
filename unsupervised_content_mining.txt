@@ -1,0 +1,102 @@
+“Unsupervised learning is not discovering truth — it’s imposing a hypothesis.”
+“Clusters can be mathematically perfect and still useless for business.”
+“Variance ≠ importance — that breaks PCA completely.”
+“The model is not the system — and I was treating it like it was.”
+“K is not a technical parameter — it’s a business decision.”
+“Explained variance feels scientific but can still be irrelevant.”
+“PCA doesn’t learn — it exposes.”
+“Bad clustering is visible. Bad PCA is silent.”
+“t-SNE is not a clustering algorithm — it’s a storytelling tool.”
+“DBSCAN is the first time I saw an algorithm say: some points don’t belong anywhere.”
+“Noise is not always noise — it can be signal.”
+“Hierarchical clustering doesn’t ask ‘how many clusters’ — it asks ‘how are they related?’”
+“Dendrogram is not just a plot — it’s a decision tool.”
+“Feature scaling is not preprocessing — it defines reality for the algorithm.”
+“Distance is everything — and we rarely question it.”
+“Outliers don’t just affect models — they define them (DBSCAN vs K-Means).”
+“PCA compresses — but compression can erase what matters.”
+“t-SNE makes structure look real even when it’s not.”
+“Evaluation without ground truth is uncomfortable — and unavoidable.”
+“Most ML systems fail not because models are wrong, but because decisions are missing.”
+“Probability is not a decision — expected value is.”
+“A model output without a policy is just a number.”
+“Feedback loops are not optional — they are the system.”
+“The hardest part is not building the model — it’s trusting (or not trusting) the output.”
+“Different algorithms don’t just solve problems differently — they change how you think about the data.”
+
+selected
+
+“Unsupervised learning is not discovering truth — it’s imposing a hypothesis.”
+“The model is not the system.”
+“Bad clustering is visible. Bad PCA is silent.”
+“Variance ≠ importance — and that breaks most PCA use cases.”
+“K is not a technical parameter — it’s a business decision.”
+“Probability is not a decision — expected value is.”
+“DBSCAN is the first time I saw an algorithm accept that some data points don’t belong.”
+“t-SNE doesn’t show reality — it shows a perspective.”
+“Feature scaling is not preprocessing — it defines reality for the algorithm.”
+“Most ML systems fail because they stop at prediction.”
+“A model output without a policy is just a number.”
+“Hierarchical clustering answers ‘how are users related’, not just ‘which bucket’.”
+“Compression can remove the most important signal.”
+“Evaluation without ground truth forces you to think, not just compute.”
+“Different algorithms don’t just change results — they change the questions you ask.”
+
+## Version Writing
+The model is not the system
+
+Version 1 — Simple
+Most people think building a good ML model solves the problem.
+
+It doesn’t.
+
+The model is just one part of the system.
+
+You still need:
+
+a decision layer
+an action layer
+a feedback loop
+
+Without these, your model is just producing numbers.
+
+Version 2 — Contrarian
+
+Everyone is obsessed with improving model accuracy.
+
+But accuracy is not your problem.
+
+Your real problem is this:
+
+You don’t have a system.
+
+You have:
+
+a model
+no decision rules
+no actions
+no feedback
+
+So even a perfect model gives you zero business value.
+
+Version 3 — Story-Based
+
+A team builds a churn model with 92% accuracy.
+
+They celebrate.
+
+But nothing changes.
+
+Why?
+
+Because no one decided:
+
+what score triggers intervention
+what action to take
+how to measure success
+
+Six months later, churn is the same.
+
+The model worked.
+
+The system didn’t.
