@@ -1,0 +1,63 @@
+I used to think logistic regression predicts classes, now I see it predicts probabilities that businesses act on.
+Regularization feels like an exam with a strict page limit — you are forced to keep only what matters.
+I assumed all ML optimization was gradient descent, but decision trees don’t use gradients at all — they just greedily split.
+Loss function is not math — it’s literally a business decision about which mistake hurts more.
+I used to optimize for accuracy, now I see accuracy can completely hide a useless model.
+A model predicting 94% accuracy can still be totally broken if it ignores the minority class.
+Logistic regression is not linear in output — it is linear in log-odds, which completely breaks my earlier assumption.
+Gradient descent in logistic regression is almost identical to linear regression — just the loss function changes everything.
+Decision trees think like humans — “if this, then that” — not like equations.
+Regression assumes one rule for everyone, trees assume different rules for different groups.
+The world is not smooth — it’s segmented — and trees capture that better than regression.
+I assumed better models come from complexity, but sometimes a 12-feature logistic model is more powerful than 800 noisy features.
+Feature scaling is not optional — it’s infrastructure.
+Perfect separation causing infinite weights was something I didn’t expect at all.
+I used to think threshold = 0.5 is default truth — now I see it’s just a lazy assumption.
+Threshold tuning is actually where business decisions enter the model.
+SVM doesn’t care about all data points — only boundary cases matter.
+This breaks my assumption that all data points contribute equally to learning.
+Hinge loss ignores “easy” points — it only cares about mistakes near the boundary.
+I used to think more data always helps — but in SVM, only support vectors matter.
+SVM is not predicting probability — it’s drawing a boundary.
+Kernel trick feels like adding hidden dimensions to reality to make separation possible.
+XGBoost doesn’t learn patterns — it learns mistakes.
+The most valuable signal is in residuals, not in correct predictions.
+Boosting feels like hiring analysts who fix each other’s errors.
+I assumed models learn everything at once — XGBoost learns sequentially.
+Learning rate in XGBoost is not speed — it’s regularization.
+Greedy algorithms don’t look ahead — they just make the best current decision.
+Decision trees can miss global patterns because they are greedy.
+I used to think optimization is always continuous — but trees optimize structure, not parameters.
+Data leakage is terrifying because the model can look perfect while being fundamentally wrong.
+A single leaked feature can dominate the entire model.
+Model interpretability is not about simplicity — it’s about explainability to stakeholders.
+If I can’t explain a feature, I probably shouldn’t use it.
+ML courses rarely talk about business cost of errors — but that’s the only thing that matters in production.
+Recruiters ask about algorithms, but real work is about framing and loss functions.
+The biggest lever in ML is not the model — it’s problem definition.
+Convexity guarantee in logistic regression is underrated — it removes randomness completely.
+I assumed all models behave similarly in training — but optimization philosophy changes everything.
+Most ML failures are not algorithm failures — they are thinking failures.
+
+10 - 20 selected pieces
+
+I used to think the loss function was just math — now I see it’s a business decision about which mistakes are allowed to hurt.
+I assumed accuracy meant a good model, but I’ve seen models with 94% accuracy that are completely useless in practice.
+Logistic regression isn’t linear in output — it’s linear in log-odds, which completely changed how I think about it.
+Decision trees showed me that the world isn’t one smooth rule — it’s a set of conditions.
+I used to think all ML optimization was gradient descent, but trees don’t even use gradients.
+Threshold selection is not technical tuning — it’s where business reality enters the model.
+SVM taught me that not all data points matter — only the hardest boundary cases define the model.
+Hinge loss ignoring “easy” examples changed how I think about what learning actually focuses on.
+XGBoost made me realize that the real signal is in the errors, not in what the model already gets right.
+I used to think models learn everything at once — now I see boosting as a sequential correction process.
+Feature scaling felt like preprocessing detail, but it’s actually load-bearing infrastructure.
+Perfect training accuracy is not a win — it’s often a warning sign.
+If I can’t explain why a feature exists, it probably shouldn’t be in the model.
+Most ML problems are not algorithm problems — they are problem framing problems.
+The biggest gap between learning ML and doing ML is understanding that defaults don’t know your business.
+Recruiters ask about algorithms, but real-world impact comes from choosing the right loss and threshold.
+Convexity in logistic regression means if results change across runs, something is broken in the pipeline.
+Decision trees being greedy showed me that “locally optimal” is not always “globally correct.”
+Kernel trick made me realize that sometimes the problem isn’t the model — it’s the space you’re looking at.
+The most dangerous thing in ML is a model that looks correct but is built on leakage or wrong assumptions.
